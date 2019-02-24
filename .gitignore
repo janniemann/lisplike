@@ -1,0 +1,14 @@
+# core dumps
+*.core
+
+# compiler output
+*.o
+scm
+scmrpl
+
+# editor backup files
+*~
+\#*\#
+
+# kyua test reports
+html/**

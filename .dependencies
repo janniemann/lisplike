@@ -1,0 +1,8 @@
+scm.o: scm.c scmerr.h scmmem.h scmval.h scmrdr.h scmprt.h scmevl.h
+scmerr.o: scmerr.c scmerr.h
+scmevl.o: scmevl.c scmmem.h scmval.h scmevl.h
+scmmem.o: scmmem.c scmmem.h
+scmprt.o: scmprt.c scmerr.h scmmem.h scmval.h scmprt.h
+scmrdr.o: scmrdr.c scmerr.h scmmem.h scmval.h scmspl.h scmprt.h scmrdr.h
+scmspl.o: scmspl.c scmmem.h scmval.h scmspl.h
+scmval.o: scmval.c scmmem.h scmval.h
